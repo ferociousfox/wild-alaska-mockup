@@ -36,7 +36,7 @@
     text-align: center;
     line-height: 77px;
     position: absolute;
-    top: 26%; }
+    top: 23%; }
 
 .hero p {
   font-size: 19px;
@@ -45,7 +45,7 @@
 .hero h1 {
   font-size: 112px; }
 
-.hero-text img {
+.alaska img {
   position: absolute;
   top: -71.4px;
   right: 350px; }
@@ -57,6 +57,20 @@
   margin-top: 44px;
   background-color: #fff;
   height: 6px; }
+
+.play-btn img {
+  width: 31px;
+  margin-top: 33px;
+  margin-left: 10px; }
+
+.play-btn {
+  width: 105px;
+  height: 105px;
+  background-color: #ffffff87;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 27px; }
 
 * {
   margin: 0;
