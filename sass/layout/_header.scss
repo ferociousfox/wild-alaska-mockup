@@ -4,8 +4,13 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
+  min-width: 1544px;
   .logo img {
     display: inline;
+  }
+  li {
+    display:inline;
+    margin-right: 50px
   }
 }
 

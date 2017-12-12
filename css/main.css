@@ -3,9 +3,13 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100px; }
+  height: 100px;
+  min-width: 1544px; }
   .header .logo img {
     display: inline; }
+  .header li {
+    display: inline;
+    margin-right: 50px; }
 
 .logo {
   display: flex;
@@ -24,7 +28,13 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+li {
+  font-family: sans-serif; }
 
 * {
   margin: 0;
@@ -32,5 +42,8 @@
   border: 1px dotted gray;
   box-sizing: border-box;
   background-color: black; }
+
+body {
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
