@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px dotted gray;
+  // border: 1px dotted gray;
+  // background-color: black;
   box-sizing: border-box;
-  background-color: black;
 
 }
 body {
   color: $brand-text;
+  font-family: $brand-font;
 }

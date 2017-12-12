@@ -9,4 +9,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+    .hero-text {
+    text-align: center;
+    line-height: 77px;
+    position: absolute;
+    top: 26%;;
+    }
+}
+
+.hero p {
+  font-size: 19px;
+  letter-spacing: 5.5px;
+
+}
+
+.hero h1 {
+  font-size: 112px;
+}
+
+.hero-text img {
+  position: absolute;
+  top: -71.4px;
+  right: 350px;
+}
+
+.hero hr {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 44px;
+  background-color: #fff;
+  height: 6px;
 }
