@@ -1,4 +1,23 @@
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  .logo img {
+    display: inline;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img:first-child {
+  width: 61px;
+}
+
+.logo img:nth-child(2) {
+  width: 167px;
 }
