@@ -4,12 +4,10 @@
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  min-width: 1154px; }
+  min-width: 1154px;
+  margin-top: 45.6px; }
   .header .logo img {
     display: inline; }
-  .header li {
-    display: inline;
-    margin-right: 30px; }
 
 .logo {
   display: flex;
@@ -89,6 +87,29 @@ img.alaska {
 .explore-btn img {
   margin-left: 67px;
   margin-bottom: 8px; }
+
+nav li {
+  display: inline;
+  margin-right: 30px; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  height: 828px; }
+  .gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
+
+.rafting {
+  grid-column-start: 1;
+  grid-column-end: 3; }
+
+.custom {
+  grid-row: 2;
+  grid-column-start: 3;
+  grid-column-end: 5; }
 
 * {
   margin: 0;
