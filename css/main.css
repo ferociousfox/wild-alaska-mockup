@@ -103,13 +103,11 @@ nav li {
     height: 100%; }
 
 .rafting {
-  grid-column-start: 1;
-  grid-column-end: 3; }
+  grid-column: 1 / span 2; }
 
 .custom {
   grid-row: 2;
-  grid-column-start: 3;
-  grid-column-end: 5; }
+  grid-column: 3 / span 2; }
 
 * {
   margin: 0;
